@@ -10,7 +10,7 @@ import {
 import { createRootInitializer, ROOT_CONFIG, RootConfig } from './root-config';
 
 @Component({
-  selector: '[app-root],app-root,root,[root],meepo-root,[meepo-root]',
+  selector: '[meepo-root],meepo-root]',
   template: `
     <ng-content></ng-content>
   `,
