@@ -1,4 +1,8 @@
-## qrcode for angular
-```html
-<div [qrcode]="_qrcode"></div>
+## root for angular
+```ts
+export { RootModule, RootComponent, createRootInitializer, ROOT_CONFIG, RootConfig } from 'meepo-root';
+```
+
+```
+<root></root>
 ```
