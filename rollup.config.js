@@ -135,7 +135,7 @@ switch (target) {
 
 export default {
   exports: 'named',
-  name: 'meepo-logger',
+  name: 'meepo-root',
   plugins,
   external: Object.keys(globals),
   globals,
